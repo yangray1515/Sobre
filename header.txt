@@ -1,0 +1,46 @@
+<header>
+        <div class="box_cab">
+             <img src="logo.png" class="box_nav-img" alt=""> 
+            <nav class="box_cab-nav">
+                <ul class="box_cab-nav-ul">
+                    <li><a class="box_cab-nav-a">Home</a></li>
+                    <li><a class="box_cab-nav-a">Sobre nós</a></li>
+                    <li><a class="box_cab-nav-a">Cardápio</a></li>
+                    <li><a class="box_cab-nav-a">Contato</a></li>
+                    <li><a class="box_cab-nav-a">Redes Sociais</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+css
+
+
+body{
+    margin: 0;
+}
+
+.box_cab{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #fcb7af;
+    align-items: center;
+}
+
+.box_cab-nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.box_cab-nav-a{
+    padding: 15px;
+    color: #80efd8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box_nav-img{
+    width: 8%;
+}

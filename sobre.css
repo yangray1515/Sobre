@@ -1,0 +1,92 @@
+body{
+    background-image: url(imag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+css
+
+
+body{
+    margin: 0;
+}
+
+.box_cab{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #fcb7af;
+    align-items: center;
+    background-color: #ffe4e1;
+}
+
+.box_cab-nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.box_cab-nav-a{
+    padding: 15px;
+    color: #80efd8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box_nav-img{
+    width: 8%;
+}
+.sobre2{
+    text-align: center;
+    color: #80EFD8;
+    padding: 15px;
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.conheca{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: #392620;
+    text-shadow: 1px 1px 2px white;
+    padding: 10px;
+}
+
+.historia{
+    color:  #80EFD8;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.hist{
+    text-align: justify;
+    text-shadow: 1px 2px 2px #80EFD8;
+    padding: 40px;
+   font-size: 15px;
+   font-family: 'Bebas Neue', cursive;
+}
+.im{
+    display: flex;
+ 
+}
+.img1{
+    width: 20%;
+}
+
+.miss{
+    width: 5%;
+    border-radius: 50%;
+}
+
+.missao{
+    display: flex;
+
+}
+ .missa{
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 2px 2px #80EFD8;
+    font-size: 15px;
+ }
